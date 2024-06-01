@@ -2,6 +2,7 @@ import Header from '@/components/header';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import { cn } from '@/lib/utils';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className="scroll-smooth selection:bg-priamry selection:text-white">
+      <body className={cn("relative ",inter.className)}>
         <Header />
 
         {children}
