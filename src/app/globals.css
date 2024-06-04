@@ -69,8 +69,21 @@
   @layer base {
     * {
       @apply border-border;
+      
     }
     body {
       @apply bg-background text-foreground;
     }
+  }
+
+
+
+
+
+
+  /* _________________________________________________________________________ */
+  *:focus-visible{
+    outline: 0 !important;
+    --tw-ring-shadow: 0px !important;
+    --tw-ring-offset-width: 0px !important;
   }

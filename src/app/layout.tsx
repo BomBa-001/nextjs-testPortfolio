@@ -1,9 +1,10 @@
-import Header from '@/src/components/header';
+import Header from '@/components/header';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { cn } from '@/src/lib/utils';
-import Footer from '@/src/components/footer';
+import { cn } from '@/lib/utils';
+import Footer from '@/components/footer';
+import { ThemeProvider } from '../components/globals/dark-mode';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,13 +20,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth selection:bg-primary selection:text-white">
-      <body className={cn("relative ",inter.className)}>
-        <Header />
+      <body className={cn("relative text-muted-foreground overflow-x-hidden", inter.className)}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Header />
 
-        {/* <main className='min-h-screen '>{children}</main> */}
-        <main className=''>{children}</main>
+          {/* <main className='min-h-screen '>{children}</main> */}
+          <main className=''>{children}</main>
 
-        <Footer/>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );
