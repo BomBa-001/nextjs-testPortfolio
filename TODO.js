@@ -54,3 +54,33 @@ my-nextjs-project/
 
 
 */
+
+/*
+نحن شركة "BomBa-SofT" شركة متخصصة في البرمجة وتصميم المواقع والانظمة الإلكترونية:
+أرغب في المساعدة لكتابة مقال مختصر عن من نحن مع إضافة روابط اهم السوشيال ميديا
+المقال بالغة العربية و الإنجليزة
+ChatGPT
+بالعربية:
+من نحن:
+
+نحن في شركة "BomBa-SofT" نعتبر الابتكار والتفوق في مجال البرمجة وتصميم المواقع والأنظمة الإلكترونية جوهر عملنا. نحن فريق من المحترفين المتخصصين في تقديم حلول تقنية متكاملة تلبي احتياجات عملائنا وتساعدهم على تحقيق أهدافهم. نتبنى أحدث التقنيات ونلتزم بأعلى معايير الجودة لضمان رضا عملائنا وتقديم قيمة حقيقية لمشاريعهم.
+
+روابط السوشيال ميديا:
+فيسبوك: BomBa-SofT Facebook
+تويتر: BomBa-SofT Twitter
+لينكدإن: BomBa-SofT LinkedIn
+إنستغرام: BomBa-SofT Instagram
+In English:
+About Us:
+
+BomBa-SofT, innovation and excellence in programming, web design, and electronic systems are at the core of our business. We are a team of professionals dedicated to providing comprehensive technical solutions that meet our clients' needs and help them achieve their goals. We adopt the latest technologies and adhere to the highest quality standards to ensure our clients' satisfaction and deliver true value to their projects.
+
+Social Media Links:
+Facebook: BomBa-SofT Facebook
+Twitter: BomBa-SofT Twitter
+LinkedIn: BomBa-SofT LinkedIn
+Instagram: BomBa-SofT Instagram
+
+
+
+*/

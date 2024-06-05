@@ -11,3 +11,10 @@ export interface socialLink{
   href: string,
   icon: LucideIcon
 }
+
+export interface infoData{
+  title: string,
+  value: string,
+  href: string,
+  icon: LucideIcon
+}
